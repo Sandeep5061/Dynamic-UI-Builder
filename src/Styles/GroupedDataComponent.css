@@ -1,0 +1,48 @@
+/* GroupedDataComponent.css */
+
+.grouped-data-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grouped-data-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Add a border for separation */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow from child elements */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .grouped-data-item:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+  }
+  
+  .common-template-name {
+    flex-grow: 1;
+    padding: 15px;
+  }
+  
+  .common-template-name h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .view-link {
+    padding: 15px;
+    background-color: #3498db;
+  }
+  
+  .view-link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .view-link a:hover {
+    text-decoration: underline;
+  }
+  

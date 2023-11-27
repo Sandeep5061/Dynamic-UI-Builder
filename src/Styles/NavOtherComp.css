@@ -1,0 +1,26 @@
+/* NavOtherComp.css */
+
+.navbarrr {
+    background-color: #41bd41;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .left-links,
+  .right-links {
+    display: flex;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .link:last-child {
+    margin-right: 0;
+  }
+  

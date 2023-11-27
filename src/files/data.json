@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "type": "textarea",
+        "label": "Textarea Component",
+        "placeholder": "Enter your text here"
+    },
+    {
+        "id": 2,
+        "type": "textfield",
+        "label": "label",
+        "placeholder": "Enter your data",
+        "inputType": "text",
+        "isRequired": false,
+        "maxLength": 5
+      },
+    {
+        "id": 3,
+        "type": "button",
+        "label": "Button Component",
+        "text": "Click Me"
+    },
+    {
+        "id": 4,
+        "type": "dropdown",
+        "label": "Dropdown Component",
+        "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3"
+        ],
+        "selectedOption": "Option 1",
+        "isMultiple": false,
+        "isRequired": false
+        
+    },
+    
+    {
+        "id": 5,
+        "type": "image",
+        "url": "https://yt3.ggpht.com/ytc/AAUvwnjOQiXUsXYMs8lwrd4litEEqXry1-atqJavJJ09=s900-c-k-c0x00ffffff-no-rj"
+    },
+    {
+        "id": 6,
+        "type": "image",
+        "url": "https://wallpapers.com/images/featured/picture-en3dnh2zi84sgt3t.webp"
+    },
+    {
+        "id": 7,
+        "type": "image",
+        "url": "https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_1920,c_limit/phonepicutres-TA.jpg"
+    },
+    {
+        "id": 8,
+        "type": "datepicker",
+        "label": "Date Picker Component",
+        "placeholder": "Select a date"
+    },
+    {
+        "id": 9,
+        "type": "checkbox",
+        "label": "Checkbox Component",
+        "checked": false
+    },
+    {
+        "id": 10,
+        "type": "radio",
+        "label": "Radio Component",
+        "options": ["Option 1", "Option 2", "Option 3"],
+        "selectedOption": "Option 1"
+    },
+    {
+        "id": 11,
+        "type": "slider",
+        "label": "Slider Component",
+        "minValue": 0,
+        "maxValue": 100,
+        "value": 50,
+        "step": 1,
+        "disabled": false,
+        "showValueLabel": true
+      }
+]

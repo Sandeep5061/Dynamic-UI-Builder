@@ -1,0 +1,31 @@
+.template-list {
+    font-family: Arial, sans-serif;
+  }
+  
+  .template {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .template h2 {
+    margin: 0;
+  }
+  
+  .template button {
+    margin-top: 10px;
+  }
+  
+  .template form {
+    margin-top: 10px;
+  }
+  
+  .template-item {
+    margin-bottom: 10px;
+  }
+  
+  .template-item label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
