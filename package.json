@@ -1,5 +1,5 @@
 {
-  "name": "app2",
+  "name": "dynamic-ui-builder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,5 +46,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A metadata-driven no-code builder for reusable form templates and data collection workflows."
 }

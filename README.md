@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Dynamic UI Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dynamic UI Builder is a metadata-driven no-code product for creating reusable form templates and data collection workflows. It helps teams turn repeated intake processes into configurable UI screens without rebuilding the same forms by hand.
 
-## Available Scripts
+## Why it is useful
 
-In the project directory, you can run:
+- **Build quickly:** compose form sections with drag-and-drop controls such as text fields, text areas, dropdowns, dates, checkboxes, radio buttons, and buttons.
+- **Keep templates portable:** save each UI as JSON metadata that can be stored, audited, versioned, and rendered again.
+- **Collect operational data:** publish templates, capture submissions, and review template data from the app navigation.
+- **Sellable positioning:** the homepage now communicates a clear value proposition for internal operations, HR, field, and support workflows.
 
-### `npm start`
+## Product flows
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Open the landing page and choose **Start building**.
+2. Create one or more reusable sections from the component palette.
+3. Save the template metadata.
+4. View saved sections, compose templates, and inspect submitted data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech stack
 
-### `npm test`
+- React 18 and Create React App
+- React Router for app navigation
+- React DnD for drag-and-drop composition
+- Material UI components and icons
+- Spring Boot demo backend under `demobackend/demo`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Frontend setup
 
-### `npm run build`
+```bash
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app runs at [http://localhost:3000](http://localhost:3000).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Backend setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd demobackend/demo
+./mvnw spring-boot:run
+```
 
-### `npm run eject`
+The demo API runs at [http://localhost:8080](http://localhost:8080).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Production build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This creates an optimized static build in `build/`.
